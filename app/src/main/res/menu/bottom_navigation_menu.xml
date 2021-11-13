@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bar_chart"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:orderInCategory="1"
+        android:title="@string/bar_chart" />
+    <item
+        android:id="@+id/pie_chart"
+        android:icon="@drawable/ic_baseline_pie_chart_24"
+        android:orderInCategory="2"
+        android:title="@string/pie_chart" />
+    <item
+        android:id="@+id/line_chart"
+        android:icon="@drawable/ic_baseline_timeline_24"
+        android:orderInCategory="3"
+        android:title="@string/line_chart" />
+</menu>

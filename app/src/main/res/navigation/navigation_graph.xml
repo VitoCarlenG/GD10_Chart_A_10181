@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/bar_chart">
+    <fragment
+        android:id="@+id/bar_chart"
+        android:name="com.vitocarlengiovanni.gd10_chart_a_10181.BarChartFragment"
+        android:label="Bar Chart" />
+    <fragment
+        android:id="@+id/pie_chart"
+        android:name="com.vitocarlengiovanni.gd10_chart_a_10181.PieChartFragment"
+        android:label="Pie Chart" />
+    <fragment
+        android:id="@+id/line_chart"
+        android:name="com.vitocarlengiovanni.gd10_chart_a_10181.LineChartFragment"
+        android:label="Line Chart" />
+</navigation>
